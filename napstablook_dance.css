@@ -1,0 +1,28 @@
+@keyframes napstblook-dance-anim {
+	0%     {background-position: 0%   0%;}
+	5.88%   {background-position: 25%  0%;}
+	11.76% {background-position: 50%  0%;}
+	17.65% {background-position: 75%  0%;}
+	23.53% {background-position: 100% 0%;}
+	29.41% {background-position: 0%   33.333%;}
+	35.29% {background-position: 25%  33.333%;}
+	41.18% {background-position: 50%  33.333%;}
+	47.06% {background-position: 75%  33.333%;}
+	52.94% {background-position: 100% 33.333%;}
+	58.82% {background-position: 0%   66.666%;}
+	64.71% {background-position: 25%  66.666%;}
+	70.59% {background-position: 50%  66.666%;}
+	76.47% {background-position: 75%  66.666%;}
+	82.35% {background-position: 100% 66.666%;}
+	88.24% {background-position: 0%   100%;}
+	94.12% {background-position: 25%  100%;}
+}
+
+.napstablook-dance {
+	width: 135px;
+	height: 252px;
+	background: url(napstablook_dance.svg) no-repeat;
+	background-size: 500% 400%;
+	animation: napstblook-dance-anim 1.5s infinite;
+	-webkit-animation: napstblook-dance-anim 1.5s infinite step-end;
+}
